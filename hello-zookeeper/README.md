@@ -1,5 +1,9 @@
 # hello-zookeeper
 
+![](zookeeper.png)
+
+- https://zookeeper.apache.org/
+
 ## Requirements
 
 - install zookeeper on localhost:2181
