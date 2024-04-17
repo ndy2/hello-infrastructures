@@ -4,3 +4,4 @@ plugins {
 
 rootProject.name = "hello-infrastructures"
 include("hello-zookeeper")
+include("hello-minio")
