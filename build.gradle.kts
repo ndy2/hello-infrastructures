@@ -16,6 +16,8 @@ subprojects {
     dependencies {
         implementation(kotlin("stdlib"))
         testImplementation(kotlin("test"))
+        testImplementation("io.kotest:kotest-runner-junit5:5.8.1")
+        testImplementation("io.kotest:kotest-framework-datatest:5.8.1")
     }
 
     tasks.test { useJUnitPlatform() }

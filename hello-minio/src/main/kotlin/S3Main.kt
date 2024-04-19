@@ -15,7 +15,7 @@ import org.apache.http.conn.ssl.SSLConnectionSocketFactory
 
 fun main() {
     val credentials = BasicAWSCredentials(accessKey, secretKey)
-    val endpoint = "https://${host}${port}"
+    val endpoint = "https://${host}:${port}"
     val region = "us-east-1"
 
     val minio = AmazonS3ClientBuilder.standard()
