@@ -17,7 +17,7 @@ fun main() {
         }
         zk.addWatch(path, HealthHandler, AddWatchMode.PERSISTENT_RECURSIVE)
 
-        for (i in 1..100) {
+        repeat(100) {
             zk.create(
                 "${path}/${CreateMode.EPHEMERAL_SEQUENTIAL}",
                 "EPHEMERAL_SEQUENTIAL".toByteArray(),
